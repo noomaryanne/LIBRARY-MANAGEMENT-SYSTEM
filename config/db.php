@@ -53,7 +53,8 @@ throw new Exception("Error creating tables: " . $conn->error);
 echo $e->getMessage();
 } finally {
 $conn->close()
+}
+}
 
-}
-}
+
 ?>

@@ -8,6 +8,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url("library.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: ;
 }
 
 .container {
@@ -15,11 +19,12 @@ body {
     padding: 20px;
     max-width: 800px;
     width: 100%;
-    background: white;
+    background:white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
     border: 1px solid #ddd;
+   
 }
 
 .banner {
@@ -27,6 +32,7 @@ body {
     height: auto;
     margin-bottom: 20px;
     border-radius: 8px 8px 0 0;
+    background-position: cover;
 }
 
 h1, h2 {
